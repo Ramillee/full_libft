@@ -6,7 +6,7 @@
 #    By: atweek <atweek@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/08/29 22:32:18 by atweek            #+#    #+#              #
-#    Updated: 2021/03/06 20:36:23 by atweek           ###   ########.fr        #
+#    Updated: 2021/03/06 20:45:43 by atweek           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,8 +35,7 @@ OBJS = ${SRC:.c=.o}
 
 OBJSBONUS = ${SRCBONUS:.c=.o}
 
-HEADER = libft.h get_next_line.h
-
+HEADER = libft.h
 all: $(NAME)
 
 $(NAME): $(OBJS) $(HEADER)

@@ -6,11 +6,11 @@
 /*   By: atweek <atweek@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/25 17:44:55 by atweek            #+#    #+#             */
-/*   Updated: 2021/03/06 20:34:46 by atweek           ###   ########.fr       */
+/*   Updated: 2021/03/06 20:45:19 by atweek           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 size_t	gnl_ft_strlen(const char *str)
 {
